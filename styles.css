@@ -18,7 +18,6 @@ h3 {
 li {
     font-style: italic;
     font-size: 20px;
-    text-align: left;
     padding: 10px;
     text-align: center; 
 }
@@ -37,6 +36,9 @@ hr {
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h1, h3 {
@@ -45,7 +47,14 @@ h1, h3 {
 
 p {
     font-size: 100px;
-    margin: 0;
-    padding: auto;
+    margin: 10px 0 0 0;
+    padding: 0;
     text-align: center;
+}
+
+.drink-box,
+.cake-box {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
 }
