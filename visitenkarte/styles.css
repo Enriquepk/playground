@@ -1,0 +1,52 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: hsl(250, 35%, 45%);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 8px 16px hsla(0, 0%, 0%, 0.5);
+}
+
+.email-effect:hover {
+    background-color: hsl(251, 35%, 32%);
+    font-size: 18px;
+}
+
+img {
+    border-radius: 180px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0 20px;
+}
+
+p {
+    font-size: 12px;
+    margin: 20px 0 0;
+}
